@@ -21,4 +21,9 @@ public class Client {
             System.out.println("Documento retirado: " + docs.pop());
         }
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

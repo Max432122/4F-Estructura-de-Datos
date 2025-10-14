@@ -1,0 +1,49 @@
+public class InsMarcadores {
+
+    public static void main(String[] args) {
+        int[][] arrTest = {
+            {1},
+            {6, 3, 1},
+            {1, 2, 3, 4},
+            {0, 5, 3, 0},
+            {2, 5, 9},
+            {2, 4, 8, 9, 10}
+        };
+
+        int[][] arrModificado = new int[arrTest.length][];
+
+        for (int i = 0; i < arrTest.length; i++) {
+            int[] filaOriginal = arrTest[i];
+            int longitud = filaOriginal.length;
+            int valorAAgregar;
+
+            if (longitud % 2 == 0) {
+                valorAAgregar = filaOriginal[0] + filaOriginal[longitud - 1];
+            } else {
+                valorAAgregar = 0;
+            }
+
+            int[] nuevaFila = new int[longitud + 1];
+
+            for (int j = 0; j < longitud; j++) {
+                nuevaFila[j] = filaOriginal[j];
+            }
+            
+            nuevaFila[longitud] = valorAAgregar;
+            
+            arrModificado[i] = nuevaFila;
+        }
+
+        System.out.println("Arreglo modificado:");
+        for (int i = 0; i < arrModificado.length; i++) {
+            System.out.print("{");
+            for (int j = 0; j < arrModificado[i].length; j++) {
+                System.out.print(arrModificado[i][j]);
+                if (j < arrModificado[i].length - 1) {
+                    System.out.print(", ");
+                }
+            }
+            System.out.println("}");
+        }
+    }
+}

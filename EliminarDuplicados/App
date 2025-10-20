@@ -1,0 +1,35 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        DoubleLinkedList list = new DoubleLinkedList();
+        
+        System.out.println("inicializando lista vacía");
+        list.printForward();
+        
+       
+        list.add(5);
+        list.add(3);
+        list.add(5); 
+        list.add(7);
+        list.add(3); 
+        list.add(9);
+        list.add(5);
+        list.add(1);
+        
+        System.out.println("\nlista inicial (hacia adelante)");
+        list.printForward();
+
+        System.out.println("\nlista inicial (hacia atrás)");
+        list.printBackward();
+        
+        System.out.println("\neliminando duplicados");
+        list.eliminarDuplicados();
+
+       
+        System.out.println("\nlista final sin duplicados (hacia adelante)");
+        list.printForward(); 
+        
+        System.out.println("\nlista final sin duplicados (hacia atrás)");
+        list.printBackward(); 
+    }
+}

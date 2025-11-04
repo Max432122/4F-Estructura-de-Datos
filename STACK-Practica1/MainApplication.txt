@@ -1,0 +1,18 @@
+public class MainApplication {
+    
+    public static void main(String[] args) {
+       
+        PalindromeChecker checker1 = new PalindromeChecker("Anita lava la tina");
+        checker1.isPalindrome();
+        
+        System.out.println("\n--- Otros ejemplos ---");
+        
+        
+        PalindromeChecker checker2 = new PalindromeChecker("Sometamos o matemos");
+        checker2.isPalindrome(); 
+
+        
+        PalindromeChecker checker3 = new PalindromeChecker("Hola mundo");
+        checker3.isPalindrome();
+    }
+}

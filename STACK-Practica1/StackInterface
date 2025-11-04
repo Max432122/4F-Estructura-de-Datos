@@ -1,0 +1,9 @@
+public interface StackInterface<T> {
+    void push(T data);
+    T pop();
+    T peek();
+    void clear();
+    void printStack();
+    int size();
+    boolean isEmpty();
+}

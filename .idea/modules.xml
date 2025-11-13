@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/4F-Estructura-de-Datos.iml" filepath="$PROJECT_DIR$/4F-Estructura-de-Datos.iml" />
       <module fileurl="file://$PROJECT_DIR$/BubbleSort/BubbleSort.iml" filepath="$PROJECT_DIR$/BubbleSort/BubbleSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalificacionesSelection/CalificacionesSelection.iml" filepath="$PROJECT_DIR$/CalificacionesSelection/CalificacionesSelection.iml" />
       <module fileurl="file://$PROJECT_DIR$/DiagonalPrincipal/DiagonalPrincipal.iml" filepath="$PROJECT_DIR$/DiagonalPrincipal/DiagonalPrincipal.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ejercicios/Ejercicios.iml" filepath="$PROJECT_DIR$/Ejercicios/Ejercicios.iml" />
       <module fileurl="file://$PROJECT_DIR$/InsertionSort/InsertionSort.iml" filepath="$PROJECT_DIR$/InsertionSort/InsertionSort.iml" />

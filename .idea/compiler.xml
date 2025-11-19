@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="OrdenarParesImparesSelection" />
         <module name="CompararBubblesort" />
+        <module name="TemperaturasInsertionSort" />
       </profile>
     </annotationProcessing>
   </component>
